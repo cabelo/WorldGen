@@ -76,7 +76,7 @@ conda create -n worldgen python=3.11
 conda activate worldgen
 
 # Install torch and torchvision (with GPU support)
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 
 # Install worldgen
 pip install .
